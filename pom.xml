@@ -3,7 +3,7 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>br.com.devcoffee</groupId>
-	<artifactId>mdfe-ws</artifactId>
+    <artifactId>mdfe-ws</artifactId>
     <version>1.0.0</version>
     <name>${project.groupId}:${project.artifactId}</name>
     <description>STUB para os serviços do projeto SPED MDFe</description>
@@ -16,36 +16,36 @@
 
     <dependencies>
         <dependency>
-			<groupId>org.apache.axis2</groupId>
-			<artifactId>axis2</artifactId>
-			<version>1.7.6</version>
-			<type>pom</type>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.axis2</groupId>
-			<artifactId>axis2-kernel</artifactId>
-			<version>1.7.6</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.axis2</groupId>
-			<artifactId>axis2-adb</artifactId>
-			<version>1.7.6</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.ws.commons.axiom</groupId>
-			<artifactId>axiom-api</artifactId>
-			<version>1.2.20</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.ws.commons.axiom</groupId>
-			<artifactId>axiom-impl</artifactId>
-			<version>1.2.20</version>
-		</dependency>
-		<dependency>
-			<groupId>axis</groupId>
-			<artifactId>axis-wsdl4j</artifactId>
-			<version>1.5.1</version>
-		</dependency>
+            <groupId>org.apache.axis2</groupId>
+            <artifactId>axis2</artifactId>
+            <version>1.7.6</version>
+            <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.axis2</groupId>
+            <artifactId>axis2-kernel</artifactId>
+            <version>1.7.6</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.axis2</groupId>
+            <artifactId>axis2-adb</artifactId>
+            <version>1.7.6</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.ws.commons.axiom</groupId>
+            <artifactId>axiom-api</artifactId>
+            <version>1.2.20</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.ws.commons.axiom</groupId>
+            <artifactId>axiom-impl</artifactId>
+            <version>1.2.20</version>
+        </dependency>
+        <dependency>
+            <groupId>axis</groupId>
+            <artifactId>axis-wsdl4j</artifactId>
+            <version>1.5.1</version>
+        </dependency>
         <dependency>
             <groupId>jakarta.xml.ws</groupId>
             <artifactId>jakarta.xml.ws-api</artifactId>
@@ -60,33 +60,33 @@
 
     <licenses>
         <license>
-          <name>MIT License</name>
-          <url>https://www.gnu.org/licenses/gpl-3.0.en.html</url>
+            <name>GNU General Public License v3.0</name>
+            <url>https://www.gnu.org/licenses/gpl-3.0.en.html</url>
         </license>
-      </licenses>
+    </licenses>
 
-      <developers>
+    <developers>
         <developer>
-          <name>devCoffee</name>
-          <email>contato@devcoffee.com.br</email>
-          <organization>devCoffee Soluções em Tecnologia</organization>
-          <organizationUrl>https://devcoffee.com.br</organizationUrl>
+            <name>devCoffee</name>
+            <email>contato@devcoffee.com.br</email>
+            <organization>devCoffee Soluções em Tecnologia</organization>
+            <organizationUrl>https://devcoffee.com.br</organizationUrl>
         </developer>
-      </developers>
+    </developers>
 
-      <scm>
+    <scm>
         <connection>scm:git:git://github.com:devcoffee/mdfewsdl2stub.git</connection>
         <developerConnection>scm:git:ssh://github.com:devcoffee/mdfewsdl2stub.git</developerConnection>
         <url>https://github.com:devcoffee/mdfewsdl2stub/tree/master</url>
-      </scm>
+    </scm>
 
-      <distributionManagement>
+    <distributionManagement>
         <repository>
-          <id>github</id>
-          <name>GitHub Packages</name>
-          <url>https://maven.pkg.github.com/devcoffee/mdfewsdl2stub</url>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/devcoffee/mdfewsdl2stub</url>
         </repository>
-      </distributionManagement>
+    </distributionManagement>
 
     <build>
         <plugins>
